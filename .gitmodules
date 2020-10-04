@@ -1,0 +1,6 @@
+[submodule "doc"]
+	path = doc
+	url = https://github.com/QubesOS/qubes-doc
+[submodule "attachment"]
+	path = attachment
+	url = https://github.com/qubesos/qubes-attachment

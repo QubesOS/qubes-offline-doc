@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Exec=evince /usr/share/qubes/qubes-doc.pdf
+Icon=qubes-manager
+Terminal=false

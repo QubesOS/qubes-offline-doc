@@ -1,0 +1,43 @@
+Name:       qubes-doc
+Version:    @VERSION@
+Release: 0%{?dist}
+Summary:    Offline version of qubes documentation
+
+License:    GPL
+URL:        https://www.qubes-os.org/
+Source0:    %{name}-%{version}.tar.gz
+BuildArch: noarch
+
+BuildRequires:  pandoc
+BuildRequires:  python3-panflute
+BuildRequires:  librsvg2-tools
+BuildRequires:  texlive-latex
+BuildRequires:  texlive-xetex
+BuildRequires:  texlive-ulem
+BuildRequires:  texlive-mdwtools
+BuildRequires:  texlive-collection-fontsrecommended
+Requires:   evince
+
+
+%description
+Offline version of qubes documentation.
+
+
+%prep
+%setup -q
+
+
+%build
+make %{?_smp_mflags}
+
+
+%install
+%make_install
+
+
+%files
+/usr/share/qubes/qubes-doc.pdf
+/usr/share/applications/qubes-doc.desktop
+
+%changelog
+@CHANGELOG@
