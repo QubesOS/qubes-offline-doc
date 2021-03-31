@@ -58,7 +58,7 @@ $(INTERMEDIATE): build/%.json: %.md scripts/filter-links.py
 	mkdir -p $(dir $@)
 	pandoc --filter=scripts/filter-links.py $< -o $@
 
-build/qubes-doc.pdf: $(INTERMEDIATE)
+build/qubes-doc.pdf: $(INTERMEDIATE) footer.json
 	pandoc --standalone --pdf-engine=xelatex $^ -o $@
 
 

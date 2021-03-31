@@ -1,0 +1,42 @@
+{
+  "blocks": [],
+  "pandoc-api-version": [
+    1,
+    20
+  ],
+  "meta": {
+    "permalink": {
+      "t": "MetaInlines",
+      "c": [
+        {
+          "t": "Str",
+          "c": "/doc/"
+        }
+      ]
+    },
+    "title": {
+      "t": "MetaInlines",
+      "c": [
+        {
+          "t": "Str",
+          "c": "Qubes"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "OS"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "documentation"
+        }
+      ]
+    }
+  }
+}
+
