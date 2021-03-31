@@ -50,12 +50,9 @@ INTERMEDIATE = $(addprefix build/,$(patsubst %.md,%.json,$(SOURCES)))
 
 all: build/qubes-doc.pdf
 
-# Exclude "Releases" and "External Documentation"
-build/doc.md: doc/doc.md
-	mkdir -p build
-	sed -n -e '/^layout:/a documentclass: scrartcl' \
-			-e '0,/### Releases/p' < $< |\
-   		head -n -1 > $@
+build/doc.md: sections.yaml scripts/generate-toc.py
+	mkdir -p $(dir $@)
+	cd doc; ../scripts/generate-toc.py ../sections.yaml $(patsubst doc/%,%,$(filter-out build/doc.md,$(SOURCES))) > ../$@
 
 $(INTERMEDIATE): build/%.json: %.md scripts/filter-links.py
 	mkdir -p $(dir $@)

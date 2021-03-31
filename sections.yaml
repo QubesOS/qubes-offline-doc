@@ -1,0 +1,58 @@
+- title: Introduction
+  folder: introduction
+
+- title: Project Security
+  folder: project-security
+
+- title: User Documentation
+  folder: user
+
+- title: Choosing Your Hardware
+  folder: user/hardware
+
+- title: Downloading, Installing, and Upgrading Qubes
+  folder: user/downloading-installing-upgrading
+
+- title: Common Tasks
+  folder: user/common-tasks
+
+- title: Managing Operating Systems within Qubes
+  folder: user/managing-os
+
+- title: Security in Qubes
+  folder: user/security-in-qubes
+
+- title: Advanced Configuration
+  folder: user/advanced-configuration
+
+- title: Troubleshooting
+  folder: user/troubleshooting
+
+- title: Reference Pages
+  folder: user/reference
+
+- title: Developer Documentation
+  folder: developer
+
+- title: General
+  folder: developer/general
+
+- title: Code
+  folder: developer/code
+
+- title: System
+  folder: developer/system
+
+- title: Services
+  folder: developer/services
+
+- title: Debugging
+  folder: developer/debugging
+
+- title: Building
+  folder: developer/building
+
+# intentionally skipped:
+#- title: Releases
+#  folder: developer/releases
+#- title: External Documentation
