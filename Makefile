@@ -73,3 +73,6 @@ get-sources:
 
 verify-sources:
 	@true
+
+clean:
+	rm -rf build/
