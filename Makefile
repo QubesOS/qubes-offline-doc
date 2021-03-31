@@ -20,13 +20,27 @@ SOURCES_ALL = build/doc.md \
 	$(null)
 
 EXCLUDE = \
+	doc/developer/general/gsoc.md \
+	doc/developer/general/gsod.md \
+	doc/developer/general/join.md \
+	doc/developer/general/package-contributions.md \
+	doc/developer/general/style-guide.md \
+	doc/introduction/code-of-conduct.md \
 	doc/introduction/experts.md \
 	doc/project-security/canary-checklist.md \
 	doc/project-security/canary-template.md \
 	doc/project-security/security-bulletins-checklist.md \
 	doc/project-security/security-bulletins-template.md \
 	doc/project-security/xsa.md \
-	doc/developer/general/style-guide.md \
+	doc/user/downloading-installing-upgrading/upgrade/upgrade-to-r2.md \
+	doc/user/downloading-installing-upgrading/upgrade/upgrade-to-r2b1.md \
+	doc/user/downloading-installing-upgrading/upgrade/upgrade-to-r2b2.md \
+	doc/user/downloading-installing-upgrading/upgrade/upgrade-to-r2b3.md \
+	doc/user/downloading-installing-upgrading/upgrade/upgrade-to-r3_0.md \
+	doc/user/downloading-installing-upgrading/upgrade/upgrade-to-r3_1.md \
+	doc/user/downloading-installing-upgrading/upgrade/upgrade-to-r3_2.md \
+	doc/user/hardware/certified-hardware.md \
+	doc/user/hardware/hcl_listing.md \
 	doc/user/reference/research.md \
 	$(null)
 
