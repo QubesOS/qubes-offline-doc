@@ -1,4 +1,5 @@
 [Desktop Entry]
+Name=Qubes OS Offline Documentation
 Type=Application
 Exec=evince /usr/share/qubes/qubes-doc.pdf
 Icon=qubes-manager
